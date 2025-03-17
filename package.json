@@ -1,0 +1,35 @@
+{
+  "name": "1-langchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write src/**/*.ts",
+    "exercise-1": "npm run file src/1-messages.ts",
+    "exercise-2": "npm run file src/2-templates.ts",
+    "exercise-3": "npm run file src/3-chain.ts",
+    "exercise-4": "npm run file src/4-sequential.ts",
+    "exercise-5": "npm run file src/5-memory.ts",
+    "exercise-6": "npm run file src/6-summary.ts",
+    "exercise-7": "npm run file src/7-tools.ts",
+    "file": "tsx --env-file=.env --no-deprecation"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.3.26",
+    "@langchain/core": "^0.3.32",
+    "@langchain/openai": "^0.3.17",
+    "langchain": "^0.3.12",
+    "mathjs": "^14.0.1",
+    "openai": "^4.77.3",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2"
+  }
+}
